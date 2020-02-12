@@ -18,3 +18,9 @@ listening msf
 
 ## setp.4
 Execute this python_scripts and input Your Bad_DNS_Server_IP
+
+
+## 更新日志
+2020/2/12
+
+狗林说双方无交互下无法input，改命令格式+pyinstaller的exe格式，很恶心了，待改。
