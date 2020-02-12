@@ -23,4 +23,7 @@ Execute this python_scripts and input Your Bad_DNS_Server_IP
 ## 更新日志
 2020/2/12
 
-狗林说双方无交互下无法input，改命令格式+pyinstaller的exe格式，很恶心了，待改。
+狗林说双方无交互下无法input，改命令格式+pyinstaller的exe格式。
+
+更新命令格式
+- python DNS_shellcode.py -o 192.168.1.1
